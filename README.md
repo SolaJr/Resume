@@ -1,17 +1,9 @@
 # The ResumeBuilder
 
-![Screenshot of the Resume Builder Showing Sunny Mui, a Picture, and the Navigation](https://raw.githubusercontent.com/sunnymui/frontend-nanodegree-resume/master/screenshot.jpg "Sunny Mui Resume Screenshot")
-
-### View My Resume
-[https://sunnymui.github.io/frontend-nanodegree-resume/](https://sunnymui.github.io/frontend-nanodegree-resume/)
-
-or simply by clicking **Resume** at:
-[www.sunnymui.com](www.sunnymui.com)
-
 ## About the Project
 
 1. This project stores resume data in `data.js` within a single data object simply named `data` subdivided into 7 sections (JSON style) according to a structured data schema. The raw data is essentially what an API would output so later development can have this data stored on the backend database level and have the resume submodule query the API to get the data. The 7 sections are: 
-   - `bio` - Stores basic info like contact info, skills, major qualifications, profile pic, etc.
+   - `bio` - Stores basic info like contact info, skills, Sola's major qualifications, profile pic, etc.
    - `work` - Has entries for job positions and recommendations for each position.
    - `projects` - Has some portfolio project information.
    - `education` - Degrees obtained and courses taken.
